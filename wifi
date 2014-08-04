@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Conecting"
+killall wpa_supplicant
+killall dhcpcd
+ip link set wlan0 up

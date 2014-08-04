@@ -1,0 +1,4 @@
+echo "Starting MySql"
+mysqld > ~/log/mysqld.log &
+echo "Staring Redis"
+redis-server > ~/log/redis-server.log &

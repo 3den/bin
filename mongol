@@ -1,0 +1,1 @@
+mongod --smallfiles --noprealloc --nojournal > ~/log/mongo-laika.log &
